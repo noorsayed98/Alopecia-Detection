@@ -1,5 +1,4 @@
 tensorflow-cpu
 flask==3.0.2
-opencv-python-headless==4.9.0.80
 numpy==1.26.4
 streamlit
