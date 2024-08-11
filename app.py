@@ -1,4 +1,3 @@
-import streamlit as st
 from flask import Flask, render_template, request, redirect, url_for
 # import cv2 as cv
 import numpy as np
@@ -54,11 +53,3 @@ def result():
     prediction = predict('uploaded_image.jpg')
     return render_template('result.html', prediction=prediction)
 
-
-
-def main():
-    st.title("Alopecia Detection App")
-    # Add Streamlit-specific code for UI elements here
-    
-if __name__ == "__main__":
-    main()
