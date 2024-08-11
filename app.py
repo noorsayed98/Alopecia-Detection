@@ -1,7 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for
 # import cv2 as cv
 import numpy as np
-# import os
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 from keras.preprocessing import image
 from keras.models import load_model
 # from PIL import Image
