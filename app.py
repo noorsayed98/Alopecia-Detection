@@ -1,11 +1,11 @@
 from flask import Flask, render_template, request, redirect, url_for
-import cv2 as cv
+# import cv2 as cv
 import numpy as np
-import os
+# import os
 from keras.preprocessing import image
 from keras.models import load_model
 import numpy as np
-from PIL import Image
+# from PIL import Image
 
 app = Flask(__name__)
 
